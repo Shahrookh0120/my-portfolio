@@ -14,7 +14,7 @@ const CareerHistory = () => {
 				{/* Radial gradient for the container to give a faded look */}
 				<div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-[#111a2d] [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 				<div className="flex max-sm:flex-wrap">
-					<div className="max-sm:w-[100%] w-[50%] flex flex-col justify-end items-center gap-5">
+					<div className="max-sm:w-[100%] w-[50%] flex flex-col justify-end items-center gap-5 p-[20px]">
 						<MovingBorderComp
 							borderRadius="1rem"
 							className=" dark:bg-slate-900 text-white border-neutral-200 dark:border-slate-800"
