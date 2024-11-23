@@ -17,18 +17,18 @@ const CareerHistory = () => {
 					<div className="max-sm:w-[100%] w-[50%] flex flex-col justify-end items-center gap-5">
 						<MovingBorderComp
 							borderRadius="1rem"
-							className=" dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+							className=" dark:bg-slate-900 text-white border-neutral-200 dark:border-slate-800"
 						>
-							<div className="rounded-[22px] max-w-sm p-4 sm:p-10  bg-transparent">
+							<div className="rounded-[22px] max-w-sm p-4 sm:p-10 text-white bg-transparent">
 								<img
 									className="w-[35%]"
 									src={RazrLogo}
 									alt=""
 								/>
-								<p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+								<p className="text-base sm:text-xl text-white mt-4 mb-2 dark:text-neutral-200">
 									Razrtech Pvt Ltd, Mumbai
 								</p>
-								<p className="text-base sm:text-sm text-black mt-4 mb-2 dark:text-neutral-200">
+								<p className="text-base sm:text-sm text-white mt-4 mb-2 dark:text-neutral-200">
 									Frontend Developer
 								</p>
 
@@ -40,14 +40,14 @@ const CareerHistory = () => {
 						</MovingBorderComp>
 						<MovingBorderComp
 							borderRadius="1.75rem"
-							className=" dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+							className=" dark:bg-slate-900 text-white dark:text-white border-neutral-200 dark:border-slate-800"
 						>
 							<div className="rounded-[22px] max-w-sm p-4 sm:p-10  bg-transparent">
 								<img className="w-[35%]" src={Orange} alt="" />
-								<p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+								<p className="text-base sm:text-xl text-white mt-4 mb-2 dark:text-neutral-200">
 									Orange Digital Media, Banglore
 								</p>
-								<p className="text-base sm:text-sm text-black mt-4 mb-2 dark:text-neutral-200">
+								<p className="text-base sm:text-sm text-white mt-4 mb-2 dark:text-neutral-200">
 									Frontend Developer
 								</p>
 
@@ -59,14 +59,14 @@ const CareerHistory = () => {
 
 						<MovingBorderComp
 							borderRadius="1.75rem"
-							className=" dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+							className=" dark:bg-slate-900 text-white dark:text-white border-neutral-200 dark:border-slate-800"
 						>
 							<div className="rounded-[22px] max-w-sm p-4 sm:p-10  bg-transparent">
 								<img className="w-[20%]" src={Wps} alt="" />
-								<p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+								<p className="text-base sm:text-xl text-white mt-4 mb-2 dark:text-neutral-200">
 									WPS Lab Pvt. Ltd , HYD
 								</p>
-								<p className="text-base sm:text-xs text-black mt-4 mb-2 dark:text-neutral-200">
+								<p className="text-base sm:text-xs text-white mt-4 mb-2 dark:text-neutral-200">
 									Web Designer Internship
 								</p>
 
