@@ -41,7 +41,7 @@ const HeroSection = () => {
 						duration: 0.5,
 						ease: [0.4, 0.0, 0.2, 1],
 					}}
-					className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-[] leading-relaxed lg:leading-snug text-center mx-auto "
+					className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-white max-w-[] leading-relaxed lg:leading-snug text-center mx-auto "
 				>
                    
 					<div className="xl:h-[30.25rem] sm:h-full lg:h-full sm:w-full flex flex-col items-center justify-center p-[3.125rem]">

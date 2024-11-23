@@ -17,14 +17,14 @@ export const HeroHighlight = ({ children, className, containerClassName }) => {
 	return (
 		<div
 			className={cn(
-				"relative  flex items-center bg-white dark:bg-transparent justify-center xl:w-full lg:w-56 sm:w-56 group",
+				"relative  flex items-center bg-white bg-transparent justify-center xl:w-full lg:w-56 sm:w-56 group",
 				containerClassName
 			)}
 			onMouseMove={handleMouseMove}
 		>
-			<div className="absolute inset-0 bg-dot-thick-neutral-300 dark:bg-dot-thick-neutral-800 pointer-events-none" />
+			<div className="absolute inset-0 bg-dot-thick-neutral-300 bg-dot-thick-neutral-800 pointer-events-none" />
 			<motion.div
-				className="pointer-events-none bg-dot-thick-indigo-500 dark:bg-dot-thick-indigo-500 absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
+				className="pointer-events-none bg-dot-thick-indigo-500 bg-dot-thick-indigo-500 absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
 				style={{
 					WebkitMaskImage: useMotionTemplate`
             radial-gradient(

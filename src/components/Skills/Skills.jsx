@@ -11,7 +11,7 @@ export default function InfiniteMovingCardsDemo() {
 		<>
 			<div className="my-[50px]">
 				<h1 className="heading text-center py-10 text-xl xl:text-[60px]">Skills</h1>
-				<div className="h-[10rem] rounded-md flex flex-col antialiased bg-white dark:bg-transparent  items-center justify-center relative overflow-hidden">
+				<div className="h-[10rem] rounded-md flex flex-col antialiased dark:bg-transparent  items-center justify-center relative overflow-hidden">
 					<InfiniteMovingCards
 						items={testimonials}
 						direction="left"
