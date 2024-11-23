@@ -44,9 +44,9 @@ const HeroSection = () => {
 					className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-white max-w-[] leading-relaxed lg:leading-snug text-center mx-auto "
 				>
                    
-					<div className="xl:h-[30.25rem] sm:h-full lg:h-full sm:w-full flex flex-col items-center justify-center p-[3.125rem]">
+					<div className="xl:h-[30.25rem] sm:h-full lg:h-full sm:w-full flex flex-col items-center justify-center xl:p-[3.125rem] p-0">
                         <TypewriterEffectSmooth words={words} />
-						<p className=" mt-3 text-white text-center xl:w-[700px] lg:w-full sm:w-full text-[1rem] ">
+						<p className=" mt-3 text-white text-center xl:w-[700px] lg:w-full sm:w-full text-[12px] ">
 							As a passionate <strong>Frontend developer</strong>,
 							I thrive on crafting engaging user experiences
 							through clean, efficient code and intuitive design.
