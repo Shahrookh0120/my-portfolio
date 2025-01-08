@@ -17,7 +17,7 @@ const AboutSection = () => {
 						foundation in React Js, HTML5, CSS3, and JavaScript,
 						eventually moving into full-time roles where you
 						expanded your skill set to include, Tailwind JQuery,
-						Bootstrap, and SASS. Along the way, you've handled
+						Bootstrap, and SASS. Along the way, i've handled
 						increasingly complex projects, from responsive user
 						interfaces to mobile app experiences, consistently
 						delivering enhanced user engagement and streamlined
