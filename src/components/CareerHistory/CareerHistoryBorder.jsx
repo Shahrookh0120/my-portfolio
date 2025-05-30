@@ -22,7 +22,7 @@ export function MovingBorderComp({
 	return (
 		<Component
 			className={cn(
-				"bg-transparent relative text-xl xl:w-[75%] w-[100%]  p-[1px] overflow-hidden ",
+				"bg-transparent relative text-xl xl:w-[100%] w-[100%]  p-[1px] overflow-hidden ",
 				containerClassName
 			)}
 			style={{
